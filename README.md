@@ -23,12 +23,12 @@ A basic, fixed navigation is set up with the following HTML:
 		<span class="icon-bar"></span>
 	  </button>
 	  <a class="navbar-brand" href="#">
-		 <img src="images/logo-solodev.png" alt="Logo Solodev">
+		 <img src="images/logo.png" alt="Logo Solodev">
 	  </a>
 	</div>
-	<div id="navbar" class="navbar-collapse collapse">
+	<div id="navbar" class="navbar-collapse collapse navbar-right"">
 	  <ul class="nav navbar-nav">
-		<li class="active"><a href="#">Home</a></li>
+		<li><a href="#">Home</a></li>
 		<li><a href="#about">About</a></li>
 		<li><a href="#contact">Contact</a></li>
 		<li class="dropdown">
@@ -45,7 +45,7 @@ A basic, fixed navigation is set up with the following HTML:
 		</li>
 	  </ul>
 	  <ul class="nav navbar-nav navbar-right">
-		<li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+		<li><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
 	  </ul>
 	</div><!--/.nav-collapse -->
   </div>
